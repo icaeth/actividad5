@@ -1,4 +1,25 @@
 .p1 {
   background: lightgray;
 }
+
+.img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.separate {
+  margin-top: 200px;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
